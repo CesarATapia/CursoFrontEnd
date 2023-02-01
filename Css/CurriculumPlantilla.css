@@ -443,3 +443,70 @@ img{vertical-align:middle}a{color:inherit}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
+/*.contenedor {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+h1{
+   font-size: 3rem; 
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+section{
+    height: 200px; ;
+}
+section#Inicio{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contacto{
+    padding-top: 100vh;
+
+}
+
+body{
+    background-color: azure;
+}
+.ListadeProyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.DetallesProyectos{
+    border: 5px solid red;
+    width: 300px;
+    margin: 20px;
+}
+.DetallesProyectos img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: coral;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20 px;
+    padding: 10 px 20px;
+
+}
