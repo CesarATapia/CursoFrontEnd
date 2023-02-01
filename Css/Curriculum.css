@@ -1,8 +1,13 @@
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 h1{
    font-size: 3rem; 
 }
