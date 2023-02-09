@@ -58,6 +58,8 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     background-color:silver;
+   
+    padding: 5px;
    }
    
 .barralateral {
