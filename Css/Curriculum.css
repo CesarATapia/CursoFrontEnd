@@ -5,7 +5,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(243, 242, 246);
+    background-color: silver;
   }
 
 header{
@@ -13,7 +13,7 @@ header{
     top: 0;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 nav ul{
@@ -57,21 +57,25 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color:silver;
    }
    
 .barralateral {
     width: 20%;  /* Este será el ancho que tendrá tu columna */
-    background-color: #CCCCCC;  /* Aquí pon el color del fondo que quieras para este lateral */
+    
     float:left; /* Aquí determinas de lado quieres quede esta "columna" */
-    border:rgb(24, 96, 93); box-shadow: #CCCCCC;
+    /*border:rgb(24, 96, 93); box-shadow: #CCCCCC;*/
     margin: auto;
    }
    
 .principal {
     width: 75%;
     float: right;
-    background-color: #FFFFFF;
-    border:rgb(24, 96, 93); box-shadow: #CCCCCC; 
+    
     margin: auto;
     
+   }
+   .piedepagina{
+    display:flex;
+    justify-content: center;
    }
