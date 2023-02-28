@@ -63,10 +63,8 @@ p{
    }
    
 .barralateral {
-    width: 20%;  /* Este será el ancho que tendrá tu columna */
-    
-    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
-    /*border:rgb(24, 96, 93); box-shadow: #CCCCCC;*/
+    width: 20%;  
+    float:left; 
     margin: auto;
    }
    
