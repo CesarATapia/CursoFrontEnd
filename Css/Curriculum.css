@@ -30,7 +30,9 @@ nav ul li{
 }
 
 hr {
-    margin: 10px 0;
+    size: 10px;
+    margin: 10px;
+    color: black;
   }
 
   h1{
@@ -49,7 +51,6 @@ p{
     text-align: justify;
 }
 
- 
 .contenedor {
     text-align: left;
     width: 90%;
